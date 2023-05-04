@@ -1,0 +1,27 @@
+PODS:
+  - OpenTok (2.25.0):
+    - VonageWebRTC (= 99.2.39)
+  - shared (1.0):
+    - OpenTok
+  - VonageWebRTC (99.2.39)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - OpenTok
+    - VonageWebRTC
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  OpenTok: f837a493e3e6993ae604ede80d2548dde4f8cc96
+  shared: 8ac861dd99826fa8c964c146f4db7a3de9dd788a
+  VonageWebRTC: 4b57187170ef4ea435006e932600646a0521d6b0
+
+PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+
+COCOAPODS: 1.12.1
